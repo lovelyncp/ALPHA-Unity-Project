@@ -1112,6 +1112,7 @@ GameObject:
   - component: {fileID: 142248809202685010}
   - component: {fileID: 142248808318001785}
   - component: {fileID: 142248808318001786}
+  - component: {fileID: -1961085997964591318}
   m_Layer: 0
   m_Name: FarmerEnemy
   m_TagString: Untagged
@@ -1182,3 +1183,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85310cd729bd7844f9188917c90a03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-1961085997964591318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142248809209980924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1485736, y: 3.1910617, z: 1}
+  m_Center: {x: 0.0047446885, y: 1.5379646, z: 2.7124278e-17}

@@ -914,6 +914,19 @@ MonoBehaviour:
   speed: 1.5
   turnSpeed: 12
   xRange: 22
+--- !u!65 &172373850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172373848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11176302, y: 0.20745492, z: 0.27317223}
+  m_Center: {x: -0.0014387419, y: 0.09618883, z: 0.029313333}
 --- !u!54 &172373852
 Rigidbody:
   m_ObjectHideFlags: 0
