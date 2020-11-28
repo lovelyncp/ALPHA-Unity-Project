@@ -8,13 +8,13 @@ public class SpawnManager : MonoBehaviour
     private float spawnPosX = 1.0f;
     private float spawnRangeZ1 = 11.5f;
     private float spawnRangeZ2 = 0.7f;
-    private float startDelay = 3f;
-    private float spawnInterval = 5f;
+    private float startDelay = 2f;
+    private float spawnInterval = 4f;
 
     // Start is called before the first frame update
     void Start()
     {
-        //InvokeRepeating("SpawnRandomFarmers", startDelay, spawnInterval);
+        InvokeRepeating("SpawnRandomFarmers", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomFarmers()
     {
-        int farmerIndex = Random.Range(-35, farmerPrefabs.Length);
+        int farmerIndex = Random.Range(-40, farmerPrefabs.Length);
         Vector3 spawnPos = new Vector3(spawnPosX, -8, Random.Range(-spawnRangeZ1, -spawnRangeZ2));
         Instantiate(farmerPrefabs[farmerIndex], spawnPos, farmerPrefabs[farmerIndex].transform.rotation);
     }

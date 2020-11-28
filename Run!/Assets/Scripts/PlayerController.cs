@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 20.0f;
     private float horizontalInput;
     private float forwardInput;
-
+    public bool gameover = false;
     // Start is called before the first frame update
     void Start()
     {
