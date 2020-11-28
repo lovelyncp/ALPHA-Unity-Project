@@ -1,2 +1,2 @@
 # Unity Project
- Game Project
+Unity gane project assignment for interactive multimedia
