@@ -25,7 +25,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomFarmers()
     {
-        int farmerIndex = Random.Range(0, farmerPrefabs.Length);
+        int farmerIndex = Random.Range(-30, farmerPrefabs.Length);
         Vector3 spawnPos = new Vector3(spawnPosX, -8, Random.Range(-spawnRangeZ1, -spawnRangeZ2));
         Instantiate(farmerPrefabs[farmerIndex], spawnPos, farmerPrefabs[farmerIndex].transform.rotation);
     }
