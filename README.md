@@ -17,4 +17,5 @@ __Run! ALPHA includes:__
  __Some issues include:__
   - Buggy player and enemy collision
   - Enemy box collider causes enemy to move on it's Z axis at times
+  - when enemy box collider comes into contact with another enemy box collider it causes them to push each other
   - Player character is slightly elavated in the scene to avoid scene box collider collision
