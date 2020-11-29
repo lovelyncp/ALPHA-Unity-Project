@@ -1,7 +1,7 @@
 # Unity Project ALPHA
 
 # IMPORTANT NOTE!
-**The WebGL github pages works better on Google Chrome browser instead of Firefox**
+**The WebGL github pages works better on Google Chrome browser instead of Firefox.**
 **When you open the WebGL github page, the game will start but you will get an ERROR if so, simply click "OK" and refresh the page** 
 
 Unity gane project assignment for interactive multimedia
