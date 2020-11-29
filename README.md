@@ -1,7 +1,12 @@
 # Unity Project ALPHA
+
+# IMPORTANT NOTE
+- **The WebGL github pages works better on Google Chrome browser instead of Firefox**
+- **When you open the WebGL github page, the game will start but you will get an ERROR if so, simply click "OK" and refresh the page** 
+
 Unity gane project assignment for interactive multimedia
 
-Run! ALPHA includes:
+__Run! ALPHA includes:__
   - Completed scene
   - Scene that repeats itself
   - Player character
@@ -10,7 +15,7 @@ Run! ALPHA includes:
   - Enemy that spawns at intervals
   - Player and enemy collision
   
- Some issues include:
+ __Some issues include:__
   - Buggy player and enemy collision
   - Enemy box collider causes enemy to move on it's Z axis at times
   - Player character is slightly elavated in the scene to avoid scene box collider collision
