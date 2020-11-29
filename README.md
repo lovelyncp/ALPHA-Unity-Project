@@ -1,9 +1,9 @@
-# Unity Project ALPHA
-Unity gane project assignment for interactive multimedia
-
-# IMPORTANT NOTE!
+# IMPORTANT NOTE READ FIRST
 **The WebGL github pages works better on Google Chrome browser instead of Firefox.**
 **When you open the WebGL github page, the game will start but you will get an ERROR if so, simply click "OK" and refresh the page** 
+
+# Unity Project ALPHA
+Unity gane project assignment for interactive multimedia
 
 __Run! ALPHA includes:__
   - Completed scene
